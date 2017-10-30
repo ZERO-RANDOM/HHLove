@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网易云阅读--后台管理</title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/user.css" />
+		<script src="bootstrap-3.3.4-dist/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap-3.3.4-dist/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap-3.3.4-dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/user.js" type="text/javascript" charset="utf-8"></script>
+		</head>
+
+	<body>
+
+		<div class="container-fluid">
+			<div class="userHeader">
+				<div class="container">
+					<h4>用户管理页面</h4>
+				</div>
+
+			</div>
+			<div class="usermain">
+				<div class="container">
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>姓名</th>
+									<th>密码</th>
+									<th>电子邮件</th>
+									<th>地址</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="one">
+									<td><span>周华</span></td>
+									<td><span>1234</span></td>
+									<td><span>123@qq.com</span></td>
+									<td><span>南开区</span></td>
+									<td>
+										<a href="#" id="button"><span class=" glyphicon glyphicon-plus"></span></a>
+										<a href="#"><span class=" glyphicon glyphicon-pencil"></span></a>
+										<a href="#" id="delete"><span class=" glyphicon glyphicon-remove"></span></a>
+									</td>
+								</tr>
+								<tr class="two">
+									<td><span>王生</span></td>
+									<td><span>1314</span></td>
+									<td><span>123456@qq.com</span></td>
+									<td><span>和平区</span></td>
+								</tr>
+								<tr class="three">
+									<td><span>赵历</span></td>
+									<td><span>2345</span></td>
+									<td><span>23456@qq.com</span></td>
+									<td><span>津南区</span></td>
+								</tr>
+								<tr>
+									<td><span class="name"></span></td>
+									<td><span class="pwd"></span></td>
+									<td><span class="email"></span></td>
+									<td><span class="dizhi"></span></td>
+								</tr>
+								
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div id="box">
+				<center>
+					<div class="layout">
+						<form action="" method="post">
+							<br/><br/>
+							<label for="username">姓名：</label>
+							<input type="text" name="username" id="username" value="" placeholder="请输入用户姓名"/><br/><br/>
+							<label for="pwd">密码：</label>
+							<input type="text" name="password" id="password" value="" placeholder="请输入用户密码"/><br/><br/>
+							<label for="eamil">邮箱：</label>
+							<input type="text" name="eamil" id="eamil" value="" placeholder="请输入用户的邮箱"/><br /><br/>
+							<label for="dizhi">地址：</label>
+							<input type="text" name="dizhi" id="dizhi" value="" placeholder="请输入用户的地址"/><br /><br/>
+						</form>
+					</div>
+
+					<div id="closed">确定</div>
+				</center>
+			</div>
+		    <div id="box2">
+		    	<center>
+		     	<form action="" method="post">
+							<br/><br/>
+							<label for="username">姓名：</label>
+							<input type="text" name="username" id="username" value="" placeholder="请输入要删除的用户姓名"/><br/><br/>
+				</form>
+				
+				<div id="closed2">确定</div>
+				</center>
+		    </div>
+		</div>
+
+	</body>
+
+</html>

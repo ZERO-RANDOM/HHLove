@@ -1,0 +1,181 @@
+.headerow{
+	width:100%;
+	background: url(../img/imagesYY/HHQX1.jpg) no-repeat;
+	min-height: 400px;
+}
+.midddlehotel{
+	width: 100%;
+	}
+.navhotel{
+	position: relative;
+	top: 200px;
+	opacity: 0.95
+	;
+}
+.rownew{
+	width: 100%;
+}
+.otherservices{
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	margin-top: 50px;
+	color: white;
+}
+.service-icon{
+	width: 70px;
+    height: 70px;
+    text-align: center;
+    border: solid 2px #ffffff;
+    padding: 1.2em 0 0 0;
+    margin: 0 auto;
+    background-color: black;
+    transition: all 0.3s;
+}
+.service-icon:hover{
+	transform: scale(0.3);
+	background-color: white;
+}
+.imgboder{
+	border: 10px solid #E0CAA5;
+}
+.hotelmessage{
+	width: 90%;
+	height: 450px;
+	background-color: #652840;
+	transition: all 1s; 
+}
+.hotelmessage:hover{
+	background-color:#C6AFA7;
+}
+@media only screen and (max-width: 768px) {
+.hotelmessage{
+	width: 90%;
+	height: 300px;
+	background-color: #652840;
+	transition: all 1s; 
+	margin-top: 20px;
+}
+ .hotelmessage img{
+ 	width: 40%;
+ 	height: 80%;
+	margin: 5%;
+	float: left;
+}
+.hoteltext{
+	width: 50%;
+	float: right;
+	color: white;
+}
+}
+@media only screen and (min-width: 768px) {
+.hotelmessage{
+	width: 90%;
+	height: 450px;
+	background-color: #652840;
+	transition: all 1s; 
+	margin-top: 20px;
+}
+ .hotelmessage img{
+ 	width: 90%;
+    margin: 5%;
+}
+.hoteltext{
+		color: white;
+}
+}
+
+.hoteltext{
+	color: white;
+}
+.basemessage p{
+	color: #222;
+}
+/*-- services --*/
+.services{
+	background:#212121;
+}
+.agile-heading h3,.advantages-top h3,h2.agileits-icons-title, h3.agileits-icons-title,.w3layouts-contact-form-top h3,.contact-form-top h3,.w3agile-map h3,.agileits_three_comments h3, .w3_leave_comment h3{
+    color: #FFFFFF;
+    font-size: 2em;
+    letter-spacing: 5px;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.w3-agileits-services-grids,.team-bottom{
+	margin:4em 0 0 0;
+}
+.services-right-grid {
+    text-align: center;
+}
+.services-icon{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: solid 2px #ffffff;
+    padding: 1.2em 0 0 0;
+    margin: 0 auto;
+}
+/* Radial In */
+.hvr-radial-in {
+	display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    position: relative;
+    overflow: hidden;
+    background-color: #652840;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+.hvr-radial-in:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:black;
+    border-radius: 100%;
+    transform: scale(2);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+.hvr-radial-in:hover, .hvr-radial-in:focus, .hvr-radial-in:active {
+  color: white;
+}
+.icon-size{
+	font-size: 30px;
+	color: #652840;
+}
+.services-right-grid:hover div.hvr-radial-in:before{
+   transform: scale(0);	
+}
+.services-right-grid:hover .icon-size{
+	color:#FFFFFF;
+	transition: 0.5s all;
+	}
+.services-icon-info h5{
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 1em 0 0 0;
+}
+.services-right-grids:nth-child(2){
+	margin:2em 0;
+}
+/*-- //services --*/
+/*-- services-bottom --*/
+h4 a{
+	text-decoration: none;
+	color: white;
+}
+h4 a:hover{
+	text-decoration: none;
+	color: white;
+}

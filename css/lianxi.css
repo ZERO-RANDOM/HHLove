@@ -1,0 +1,53 @@
+.lx h2{
+	margin-left: 2%;
+}
+.lxwm1 a{
+	text-decoration: none;
+	color: darkgrey;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	float: right;	
+	/*box-shadow: 0px 5px 10px red,0px 0px 0px gainsboro,0px 0px 0px gainsboro,5px 0px 10px gainsboro, ;*/
+}
+.sy:hover{
+	color: deeppink;
+}
+.wed p{
+	font-size:23px;	
+	font-weight:600;
+}
+
+#list li{
+	margin-top: 2%;
+}
+#list li:hover{
+	color: red;
+	transform: scale(1.1);
+	box-shadow: 0 3px 10px 0px gainsboro ;
+}
+#list a{
+	color: gray;
+	font-size: 15px;
+	text-decoration: none;
+	font-family: "微软雅黑";	
+}
+#list a:hover{
+	color: red;
+	
+}
+.lx2 h3{
+	padding-bottom:6%;
+	padding-top:2%;
+}
+.lx2{
+	color: deeppink;	
+	box-shadow: 0 3px 20px 0px gainsboro ;
+}
+.box{
+	box-shadow: -3px 0px 20px gainsboro ;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+.lx2-3{
+	margin-left:5%;
+}

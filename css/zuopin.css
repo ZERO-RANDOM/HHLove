@@ -1,0 +1,476 @@
+
+#bgtop{
+	width: 100%;
+	height: 550px;
+	background:url(../img/p_03.jpg) center;
+	background-size: cover;
+	}
+#bgt1{
+	width: 100%;
+	height: 80px;
+	}
+
+table{
+	text-align: left;
+	margin-top: 20px;
+	font-size: 15px;
+	color: gray;
+	
+	
+}
+.headerfooter{
+	margin-top: -150px;
+}
+#middle{
+	width: 100%;
+	height:auto;
+	
+	background-size: cover;
+	margin-top: 10px;
+}
+
+#bgt2{
+	width: 100%;
+	height: auto;
+	background: pink;
+	border-bottom: dashed thin gray;
+	
+}
+
+.middlebottom{
+	width: 90%;
+	height:auto;
+	margin-top: 10px;
+}
+
+
+#m1{
+	height: auto;
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 15px;
+	
+}
+.font{
+	font-family:"mv boli";
+	font-size: 30px;
+	color:black;
+	transition:all 1s;
+	
+}.font:hover{
+	font-size: 30px;
+	color: hotpink;
+	
+	font-family:"franklin gothic demi";
+}
+.font1{
+	width: 180px;
+	height: 40px;
+	background: pink;
+	text-align: center;
+	border-radius: 30px;
+	transition: all 1s;
+	
+}			
+.font1:hover{
+	background: hotpink;
+	width: 250px;
+	transform: translateX(5px);
+	color: white;
+}
+
+
+
+#m2{
+	
+	margin-top: 0px;
+	padding: 20px 20px;
+	text-align: center;
+}
+#mb1{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+    transition: all 2s;
+    
+}
+
+#mb1:hover{
+	box-shadow: #C12E2A 0px 0px 10px;
+}
+#mb11{
+	overflow: hidden;
+}
+img{
+	width: 400px;
+	height: 400px;
+	transition: all 2s;
+}
+img:hover{
+	transform:scale(1.3,1.3) ;
+}
+.b1{
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	padding: 25px 15px;
+	top: 100%;
+    transition: all 1s;
+}
+#mb1:hover .b1{
+				top: 0%;
+				
+	}			
+#mb2{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+
+#mb2:hover{
+	box-shadow: #C12E2A 0px 0px 10px;
+	
+}
+img{
+	width: 400px;
+	height: 400px;
+}
+.b2{
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	padding: 25px 15px;
+	top: 100%;
+	transition: all 1s;
+	
+			}
+#mb2:hover .b2{
+				top: 0%;
+			}
+#mb3{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+#mb3:hover{
+	box-shadow: #C12E2A 0px 0px 10px;
+}
+img{
+	width: 400px;
+	height: 400px;
+}
+.b3{
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	padding: 25px 15px;
+	top: 100%;
+	top: 100%;
+	transition: all 1s;
+			}
+#mb3:hover .b3{
+				top: 0%;
+}
+			
+#m3{
+	margin-top: 0px;
+	
+	text-align: center;
+	padding: 20px 20px;
+}
+#mb4{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+#mb4:hover{
+	box-shadow: #C12E2A 0px 0px 10px;
+}
+img{
+	width: 400px;
+	height: 400px;
+}
+.b4{
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	padding: 25px 15px;
+	top: 100%;
+	transition: all 1s;
+			}
+#mb4:hover .b4{
+				top: 0%;
+}
+
+#mb5{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+#mb5:hover{
+	box-shadow: #C12E2A 0px 0px 10px;
+}
+img{
+	width: 400px;
+	height: 400px;
+}
+.b5{
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	padding: 25px 15px;
+	top: 100%;
+	
+	transition: all 1s;
+			}
+#mb5:hover .b5{
+				top: 0%;
+}
+
+#mb6{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+#mb6:hover{
+	box-shadow: #C12E2A 0px 0px 10px;
+}
+img{
+	width: 400px;
+	height: 400px;
+}
+.b6{
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	padding: 25px 15px;
+	top: 100%;
+	top: 100%;
+	transition: all 1s;
+			}
+#mb6:hover .b6{
+				top: 0%;
+}
+
+#m4{
+	margin-top: 0px;
+	
+	text-align: center;
+	padding: 20px 20px;
+}
+
+#mb7{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+#mb7:hover{
+	box-shadow: #C12E2A 0px 0px 10px;
+}
+img{
+	width: 400px;
+	height: 400px;
+}
+.b7{
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	padding: 25px 15px;
+	top: 100%;
+	top: 100%;
+	transition: all 1s;
+}
+#mb7:hover .b7{
+    top: 0%;
+}
+
+
+#mb8{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+#mb8:hover{
+	box-shadow: #C12E2A 0px 0px 10px;
+}
+img{
+	width: 400px;
+	height: 400px;
+}
+.b8{
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	padding: 25px 15px;
+	top: 100%;
+	top: 100%;
+	transition: all 1s;
+			}
+#mb8:hover .b8{
+				top: 0%;
+}
+
+#mb9{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+#mb9:hover{
+	box-shadow: #C12E2A 0px 0px 10px;
+	
+}
+img{
+	width: 400px;
+	height: 400px;
+}
+.b9{
+	width: 400px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	padding: 25px 15px;
+	top: 100%;
+	top: 100%;
+	transition: all 1s;
+	}
+#mb9:hover .b9{
+	top: 0%;
+}
+
+#mbottom{
+	height: 150px;
+	width: 100%;
+	background:pink;
+	
+	opacity: 0.7;
+	position: absolute;
+}
+#h1{
+	float: left;
+	background-color: pink;
+	color: black;
+	width: 80px;
+	height: auto;
+	text-align: center;
+	
+}
+#h2{
+	float: left;
+	background-color: lightgreen;
+	color: black;
+	margin-left: 15px;
+	width: 80px;
+	height: auto;
+	text-align: center;
+	
+}
+#bottom{
+	width: 85%;
+	height: auto;
+	margin-bottom: 5px;
+}
+#bottom1{
+	text-align: left;
+	margin-left: 30px;
+	
+}
+#left1{
+	width: 60%;
+	height: 150px;
+	padding: 15px 15px;
+	border: solid lightgray;
+	background: antiquewhite;
+	float: left;
+	text-align: left;
+	margin-left: 10px;
+	
+}
+#left1:hover{
+	border: solid white;
+}
+#right1{
+	width: 30%;
+	height: 150px;
+	
+	margin-left: 20px;
+	float: left;
+	
+}
+
+#left2{
+	width: 60%;
+	height: 150px;
+	background: antiquewhite;
+	float: left;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border: solid lightgray;
+	padding: 15px 15px;
+}
+#left2:hover{
+	border: solid white;
+}
+#right2{
+	width: 30%;
+	height: 150px;
+	
+	margin-left: 20px;
+	float: left;
+	margin-top: 10px;
+}
+#down{
+	width: 100%;
+	height: auto;
+	padding: 5px 5px;
+}
+#e1{
+	
+	width: 360px;
+	height: 360px;
+	float: left;
+	padding: 5px 5px;
+
+}
+#e2{
+	width: 86%;
+	height: 360px;
+	/*background: url(../img/y17.JPG);*/
+	background-size: cover;
+}

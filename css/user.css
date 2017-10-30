@@ -1,0 +1,31 @@
+.userHeader{
+	width: 100%;
+	height: 70px;
+	background-color: #EFEFEF;
+	margin-top: -10px;
+	box-shadow: 2px 2px 10px darkgray;
+	margin-bottom: 20px;
+	}
+	.userHeader h4{
+		font-weight: bolder;
+		padding-top: 10px;
+	}
+#box{
+	display: none;
+	height: 300px;
+	position: absolute;
+	background-color:#EFEFEF ;
+	left: 900px;
+	top: 200px;
+}
+#box2{
+	display: none;
+	height: 150px;
+	position: absolute;
+	background-color:#EFEFEF ;
+	left: 900px;
+	top: 200px;
+}
+#closed,#closed2{
+	cursor: pointer;
+}

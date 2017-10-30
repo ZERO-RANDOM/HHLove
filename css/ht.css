@@ -1,0 +1,41 @@
+.textusername{
+	position: absolute;
+	top: 290px;
+	left:497px;
+}
+.textpassword{
+	position: relative;
+	top: 360px;
+	left:497px;
+	
+}
+.pwd{
+	width: 360px;
+	height: 70px;
+	border: 1px solid #D9DBDE;
+	background-color: #E5E6EA;
+}
+.uname{
+	width: 360px;
+	height: 70px;
+	border: 1px solid #D9DBDE;
+	background-color: #E5E6EA;
+}
+.buttonsubmit{
+	position: relative;
+	top: 400px;
+	left:497px;
+	width: 360px;
+	height: 70px;
+	background-color: #E1AE55;
+	text-align: center;
+	border-radius: 5px;
+}
+.buttonsubmit a span{
+	color: white;
+	font-size: 36px;
+}
+.buttonsubmit a:hover{
+	text-decoration: none;
+	color: white;
+}

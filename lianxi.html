@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>联系方式</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.min.css"/>
+    <script src="bootstrap-3.3.4-dist/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/lianxi.css">
+    <link rel="stylesheet" type="text/css" href="css/HHindex.css"/>
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+   <script type="text/javascript">
+
+   $(document).ready(function(){  
+    $("#list").scrollQ();  
+});  
+       (function($){    
+    var status = false;    
+    $.fn.scrollQ = function(options){    
+        var defaults = {    
+            line:11,    
+            scrollNum:8,    
+            scrollTime:3000  
+        }  
+        var options=jQuery.extend(defaults,options);  
+        var _self = this;  
+        return this.each(function(){    
+            $("li",this).each(function(){  
+                $(this).css("display","none");  
+            })  
+            $("li:lt("+options.line+")",this).each(function(){  
+                $(this).css("display","block");  
+            })  
+            function scroll() {  
+                for(i=0;i<options.scrollNum;i++) {  
+                    var start=$("li:first",_self);  
+                    start.fadeOut(100);  
+                    start.css("display","none");  
+                    start.appendTo(_self);  
+                    $("li:eq("+(options.line-1)+")",_self).each(function(){  
+                        $(this).fadeIn(500);  
+                        $(this).css("display","block");  
+                    })  
+                }  
+            }  
+            var timer;  
+            timer = setInterval(scroll,options.scrollTime);  
+            _self.bind("mouseover",function(){  
+                clearInterval(timer);  
+            });  
+            _self.bind("mouseout",function(){  
+                timer = setInterval(scroll,options.scrollTime);  
+            });  
+              
+        });  
+    }  
+})(jQuery);  
+
+
+</script>
+	</head>
+	<body>
+		<div class="container-fluid" style="background-color: ;">
+			<nav class="navbar navbar-inverse navop" style="background: black;">
+									<div class="navbar-header">
+										<a href="index.html" class="navbar-brand">
+										<h2 class="mov" style="margin-top: 10px; color: #FF8080;">Hand in Love</h2>
+										</a>
+										<button type="button" class="navbar-toggle collapsed" data-target="#mycollapse" data-toggle="collapse">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+									</div>
+			
+									<div class="collapse navbar-collapse" id="mycollapse">
+										<ul class="nav navbar-nav navmagin">
+											<li>
+												<a href="index.html" id="home" class="text">
+												<span class="egtext">HOME</span>
+												</a>
+											</li>
+											<li>
+												<a href="lianxi.html" id="aboutus">ABOUTUS</a>
+											</li>
+											<li>
+												<a href="fw.html" id="services">SERVICES</a>
+											</li>
+											<li>
+												<a href="ketang.html" id="classA">CLASS</a>
+											</li>
+											<li>
+												<a href="Hotel.html" id="hotel">HOTEL</a>
+											</li>
+											<li>
+												<a href="zuopin.html" id="works">WORKS</a>
+											</li>
+										</ul>
+									</div>
+								</nav>
+			
+			<!--main-->
+			<div class="container">
+				<!--行1-->
+				<br />
+			
+				<div class="row">
+				    <div class="col-sm-12 col-md-12 lxwm1">
+				    	<div class="lx">
+					        <h2><strong>联系我们</strong></h2>
+					        <a href="index.html">您目前的位置:&nbsp;<font class="sy">首页</font>>联系我们</a>
+					    </div>
+				    </div>
+			    </div>
+			    <hr />
+			    <!--行2-->
+			    <br />
+			    <div class="row">
+				    <div class="col-sm-12 col-md-12">
+				    	<!--第一列left-->			    	
+				    	<div class="col-sm-12 col-md-3" style="background-color: ;">				    		
+				    		<div class="row">
+				                <div class="col-sm-12 col-md-12 wed">
+				                	<p><font style="font-family:'monotype corsiva';">WEEDING</font>&nbsp;
+					                	<font style="color: darkred;font-family:'微软雅黑';">&</font>&nbsp;
+					                	<font style="font-family:'新宋体';">婚礼展示</font>
+					                </p>				                
+				                </div>
+			                </div>
+			                <div class="row">
+				                <div class="col-sm-12 col-md-12">
+					               <div class="thumbnail">
+					                    <img src="img/hlzs.jpg" href="#">						
+				                    </div> 
+				                </div>
+			                </div>
+			                <br />
+			                <div class="row">
+				                <div class="col-sm-12 col-md-12 wed">
+				                	<p><font style="font-family:'monotype corsiva';">NEWS</font>&nbsp;
+					                	<font style="color: darkred;font-family:'微软雅黑';">&</font>&nbsp;
+					                	<font style="font-family:'新宋体';">婚礼新闻</font>
+					                </p>				                
+				                </div>
+			                </div>
+			                <div class="row">
+				                <div class="col-sm-12 col-md-12"> 
+					                <ul id="list">
+					                	
+                                        <li><a href="content_display.asp?id=951" target="_blank" title="异地结婚办酒席如何协调更完美">异地结婚办酒席如何协调更完美</a></li>
+<li><a href="content_display.asp?id=950" target="_blank" title="盘点90后喜爱的时尚婚礼主题">盘点90后喜爱的时尚婚礼主题</a></li>
+<li><a href="content_display.asp?id=949" target="_blank" title="婚礼细节也要做到尽善尽美">婚礼细节也要做到尽善尽美</a></li>
+<li><a href="content_display.asp?id=948" target="_blank" title="父母给红包新人接红包应注意的事项">父母给红包新人红包</a></li>
+<li><a href="content_display.asp?id=947" target="_blank" title="新人婚礼新型纪念 婚礼Mv怎么玩">婚礼新型纪念 婚礼Mv怎么玩</a></li>
+<li><a href="content_display.asp?id=946" target="_blank" title="新人第一次见家长需注意什么">新人第一次见家长需注意什么</a></li>
+<li><a href="content_display.asp?id=945" target="_blank" title="蜜月旅行防止隐形消费小妙招">蜜月旅行防止隐形消费小妙招</a></li>
+<li><a href="content_display.asp?id=944" target="_blank" title="婚礼现场新人减压方法">婚礼现场新人减压方法</a></li>
+<li><a href="content_display.asp?id=943" target="_blank" title="高性价比蜜月来袭 请预算好你的钱包">高性价比蜜月 请预算好你的钱包</a></li>
+<li><a href="content_display.asp?id=942" target="_blank" title="婚礼现场气球的布置怎么来利用">婚礼现场气球的布置怎么来利用</a></li>
+<li><a href="content_display.asp?id=942" target="_blank" title="婚礼现场气球的布置怎么来利用">接红包应注意的事项</a></li>
+                                       
+					                </ul>	               
+				                </div>
+			                </div>
+			                <br />
+			                <div class="row">
+				                <div class="col-sm-12 col-md-12 wed">
+				                	<p><font style="font-family:'monotype corsiva'; color:hotpink;">SERVICE</font>&nbsp;
+					                	&nbsp;
+					                	<font style="font-family:'新宋体';">服务点评</font>
+					                </p>					                
+				                </div>
+			                </div>
+			                <div class="row">
+				                <div class="col-sm-12 col-md-12">
+					                <ul id="list">
+                                        <li><a href="content_display.asp?id=951" target="_blank" title="婚庆公司主打空间的搭配...">婚庆公司主打空间的搭配，舞台背景无可挑剔</a></li>
+                                        <li><a href="content_display.asp?id=950" target="_blank" title="谢谢策划师给我们一个完...">谢谢策划给我们一个完美的婚礼</a></li>
+                                        <li><a href="content_display.asp?id=949" target="_blank" title="我的婚礼在牵手的帮助下...">我的婚礼在牵手的帮助下圆满结束</a></li>
+                                        <li><a href="content_display.asp?id=948" target="_blank" title="我的婚礼在牵手的帮助下...">我的婚礼在牵手的帮助下完</a></li>
+                                        <li><a href="content_display.asp?id=947" target="_blank" title="我的婚礼在牵手的帮助下...">谢谢你给我这个永远难忘的婚礼，很开心</a></li>
+                                        <li><a href="content_display.asp?id=946" target="_blank" title="非常感谢优悦的婚礼策划...">非常感谢牵手的婚礼策划师</a></li>
+                                        <li><a href="content_display.asp?id=945" target="_blank" title="非常感谢牵手的婚礼策划...">一开始就是和客服联系，最终确定了婚礼的主题</a></li>
+                                        <li><a href="content_display.asp?id=944" target="_blank" title="非常感谢牵手的婚礼策划...">早听说过牵手婚礼策划公司</a></li>
+                                        <li><a href="content_display.asp?id=943" target="_blank" title="非常感谢牵手的婚礼策划...">布置的非常用心，花量很足也很新鲜</a></li>
+                                        <li><a href="content_display.asp?id=942" target="_blank" title="非常感谢牵手的婚礼策划...">早听说过牵手婚礼策划，店里布置的风格就是小清新蓝</a></li>
+                                    </ul>
+				                </div>
+			                </div>
+				    	</div>
+				    	<!--第二列right-->
+				    	<div class="col-sm-12 col-md-9" style="background-color: ;">
+				    		<div class="row">
+				                <div class="col-sm-12 col-md-12">
+				                	<center>
+					                <div class="lx2">
+					                    <h3><strong>联系我们</strong></h3>					               
+					                </div>
+					                </center>
+				                </div>
+			                </div>
+			                <br />
+			                <div class="box">
+			                <div class="row">
+				                <div class="col-sm-12 col-md-12">
+					                <div class="lx2-1">
+					                    <p style="color: deeppink;font-size: 20px;">牵手婚礼策划有限公司</p>
+					                    <p style="color:#555555;font-size: 18px;margin-left:5%;">
+					                    	预约热线：0371-65801199<br />
+                                                                                        投诉电话：13503451199（24小时服务电话）<br />
+                                                                                        官方 QQ：474981250<br />
+                                            @牵手婚礼：e.weibo.com/qianshouhunli<br />
+                                                                                        官方微信：hnqianshou2006<br />
+                                                                                        联系地址：郑州市农业东路与如意西路交汇处·建业总部港F座305                                           
+					                    </p>
+					                </div>
+				                </div>
+			                </div>
+			                <br /><br />
+			                <div class="row">
+				                <div class="col-sm-12 col-md-12">
+					                <div class="lx2-2">
+					                    <p style="color: deeppink;font-size: 20px;">乘车路线</p>
+					                    <p style="color: #555555;font-size: 18px;margin-left:5%;">
+					                    	 公交路线：<br />
+                                             28、57、348、601、627、683、686、846、954、974路到大北窑南站下车。<br /><br />
+                                                                                          地铁路线：<br />
+                                                                                          地铁1、10号线国贸站（C/D口出）<br /><br />
+                                                                                        驾车路线：<br />
+                                                                                        东向，东三环国贸桥下左转第一个十字路口右转入地下车库。<br />
+                                                                                         西向，国贸桥下右转第一个红绿灯右转入车库。<br />
+                                                                                        北向，过国贸桥直行第一个红绿灯右转入车库。<br />
+                                                                                        如走通惠河北路沿辅路向西行即到建外SOHO东区。<br />                                                                                
+					                    </p>
+					                </div>
+				                </div>
+			                </div>
+			                <br /><br />
+			                <div class="row">
+				                <div class="col-sm-12 col-md-12">
+				                	<p style="color: deeppink;font-size: 20px;">百度地图</p>
+				                	<br />
+				                	    <div class="lx2-3">
+					                       <iframe src="http://www.uwedding.com.cn/dituapi.html" frameborder="0" height="350" width="80%">
+                                            </iframe>
+                                        </div>
+                                    </div>
+				                </div>
+			               </div>			              
+				    	</div>
+				    </div>
+			    </div>
+			</div>
+		   		        <div class="footer">
+				         	<div class="row">
+				         		<div class="fotrow">
+				         		<div class="container">
+				         		  <div class="col-xs-12 col-sm-4 col-md-4">
+				         		  	 <div class="footmessage">
+				         		  	 <h2 class="mov">About</h2>
+				         		  	 <h3>关于我们</h3>
+				         		  	 <p>我们始终坚持“金牌品质，规范服务”的经营理念，率先提出了婚礼套系服务模式，风靡至今；我们率先成立婚礼行业第一个客服部，全程监控标准化服务流程的每一个环节.</p>
+				         		    </div>
+				         		  	</div>
+				         		  	<div class="col-xs-12 col-sm-4 col-md-4">
+				         		  	 <div class="footmessage">
+				         		  	 <h2 class="mov">Recent Posts</h2>
+				         		  	 <h3>近期精品案例展示</h3>
+				         		  	 <div class="row">
+				         		  	 	 <div class="col-xs-6 col-sm-6">
+				         		  	 	 	<div class="thumbnail">
+				         		  	 	 		<img src="img/imagesYY/e1.jpg"/>
+				         		  	 	 	</div>
+				         		  	 	 </div>
+				         		  	 	 <div class="col-xs-6 col-sm-6">
+				         		  	 	 	<p>留下你的信息，给你一世情缘，马上来跟我们预约吧</p>
+				         		  	 	 </div>
+				         		  	 </div>
+				         		  	 <div class="row">
+				         		  	 	 <div class="col-xs-6 col-sm-6">
+				         		  	 	 	<div class="thumbnail">
+				         		  	 	 		<img src="img/imagesYY/f6.jpg"/>
+				         		  	 	 	</div>
+				         		  	 	 </div>
+				         		  	 	 <div class="col-xs-6 col-sm-6">
+				         		  	 	 	<p>留下你的信息，给你一世情缘，马上来跟我们预约吧</p>
+				         		  	 	 </div>
+				         		  	 </div>
+				         		    
+				         		  	</div>
+				         		</div>
+				         		 <div class="col-xs-12 col-sm-4 col-md-4">
+				         		  	 <div class="footmessage">
+				         		  	 <h2 class="mov">Flickr Images</h2>
+				         		  	 <h3>精美图片</h3>
+				         		  	 <div class="row">
+				         		  	 	<div class=" col-xs-4 col-sm-4">
+				         		  	 	<div class="thumbnail">
+				         		  	 		<img src="img/imagesYY/f1.jpg"/>
+				         		  	 	</div>
+				         		  	 </div>
+				         		  	 <div class="col-xs-4 col-sm-4">
+				         		  	 	<div class="thumbnail">
+				         		  	 		<img src="img/imagesYY/f2.jpg"/>
+				         		  	 	</div>
+				         		  	 </div>
+				         		  	 <div class="col-xs-4 col-sm-4">
+				         		  	 	<div class="thumbnail">
+				         		  	 		<img src="img/imagesYY/f3.jpg"/>
+				         		  	 	</div>
+				         		  	 </div>
+				         		  	 </div>
+				         		  	 <div class="row">
+				         		  	 	<div class="col-xs-4 col-sm-4">
+				         		  	 	<div class="thumbnail">
+				         		  	 		<img src="img/imagesYY/f4.jpg"/>
+				         		  	 	</div>
+				         		  	 </div>
+				         		  	 <div class="col-xs-4 col-sm-4">
+				         		  	 	<div class="thumbnail">
+				         		  	 		<img src="img/imagesYY/f5.jpg"/>
+				         		  	 	</div>
+				         		  	 </div>
+				         		  	 <div class="col-xs-4 col-sm-4">
+				         		  	 	<div class="thumbnail">
+				         		  	 		<img src="img/imagesYY/f6.jpg"/>
+				         		  	 	</div>
+				         		  	 </div>
+				         		  	 </div>
+				         		  	 
+				         		    </div>
+				         		  	</div>
+				         		</div>
+				         		
+				         	</div>
+				        </div>
+					</div>
+		</div>
+	</body>
+</html>

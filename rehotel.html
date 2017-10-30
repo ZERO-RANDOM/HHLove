@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>酒店预订</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.css"/>
+					<link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.min.css" />
+				    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap-theme.min.css" />
+				    <link rel="stylesheet" type="text/css" href="css/HHindex.css"/>
+				    <link rel="stylesheet" type="text/css" href="css/rehotel.css"/>
+				    <script src="bootstrap-3.3.4-dist/jquery-1.11.3.js"></script>
+				    <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+				    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+				    <script src="js/jarallax.js" type="text/javascript" charset="utf-8"></script>
+				    <script src="js/SmoothScroll.min.js" type="text/javascript" charset="utf-8"></script>
+	                <script src="js/rehotel.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			
+			<div class="header">
+				<nav class="navbar navbar-fixed-top navop navbar-inverse">
+					<div class="navbar-header">
+						<a href="index.html" class="navbar-brand">
+							<h2 class="mov" style="margin-top: 10px; color: #FF8080;">Hand in Love</h2>
+						</a>
+						<button type="button" class="navbar-toggle collapsed" data-target="#mycollapse" data-toggle="collapse">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+					</div>
+
+					<div class="collapse navbar-collapse" id="mycollapse">
+						<ul class="nav navbar-nav navmagin">
+							<li>
+								<a href="index.html" id="home" class="text">
+									<span class="egtext">HOME</span>
+								</a>
+							</li>
+							<li>
+								<a href="lianxi.html" id="aboutus">ABOUTUS</a>
+							</li>
+							<li>
+								<a href="fw.html" id="services">SERVICES</a>
+							</li>
+							<li>
+								<a href="ketang.html" id="classA">CLASS</a>
+							</li>
+							<li>
+								<a href="Hotel.html" id="hotel">HOTEL</a>
+							</li>
+							<li>
+								<a href="zuopin.html" id="works">WORKS</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="midddlerehotel">
+				
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<div class="sider">
+						  	<p>优质酒店档期少，预订从速！</p>
+						  	<div class="infom">
+						  		<span>已有</span>
+						  		<span id="show"></span>
+						  		<span>对通过牵手<span class="mov">lOve</span>成就完美婚礼！</span>	
+						    </div>
+						</div>
+				    </div>
+				    <div class="col-xs-12 col-sm-6 col-md-6">
+				    	<center>
+				    	<div class="forms">
+				    		<div class="text text1">
+				    			<span class="address">请选择酒店的地点</span>
+				    			<span class="glyphicon glyphicon-chevron-down"></span>
+				    		</div>
+				    		<div class="text text2">
+				    			<span class="prices">请选择婚礼价格</span>
+				    			<span class="glyphicon glyphicon-chevron-down"></span>
+				    		</div>
+				    		<div class="text text3">
+				    			<span class="guimo">请选择婚礼的规模</span>
+				    			<span class="glyphicon glyphicon-chevron-down"></span>
+				    		</div>
+				    		<div class="address2">
+				    			<div class="buxian">
+				    				<ul>
+				    				<li value="不限"class="wu">不限</li>
+				    				<li value="市区范围" class="wu shiqu">市区范围</li>
+				    			    </ul>
+				    			</div>
+				    			<div class="hua1">
+				    				<ul>
+				    				<li value="和平区"class="wu">和平区</li>
+				    				<li value="河东区" class="wu">河东区</li>
+				    				<li value="河西区"class="wu">河西区</li>
+				    				<li value="南开区" class="wu">南开区</li>
+				    			    </ul>
+				    			</div>
+				    			<div class="hua1">
+				    				<ul>
+				    				<li value="河北区"class="wu">河北区</li>
+				    				<li value="虹桥区" class="wu">虹桥区</li>
+				    				<li value="滨海新区"class="wu">滨海新区</li>
+				    				<li value="东丽区" class="wu">东丽区</li>
+				    			    </ul>
+				    			</div>
+				    			<div class="hua1">
+				    				<ul>
+				    				<li value="西青区"class="wu">西青区</li>
+				    				<li value="津南区" class="wu">津南区</li>
+				    				<li value="北辰区"class="wu">北辰区</li>
+				    				<li value="武清区" class="wu">武清区</li>
+				    			    </ul>
+				    			</div>
+				    			
+				    		</div>
+				    	    <div class="prices2">
+				    	    	<div class="hpre">
+				    				<ul>
+				    				<li value="不限"class="ph">不限</li>
+				    				<li value="2000-1000元" class="ph">2000-1000元</li>
+				    				<li value="3000-2000元"class="ph">3000-2000元</li>
+				    				<li value="4000-3000元" class="ph">4000-3000元</li>
+				    				<li value="4000元以上" class="ph">4000元以上</li>
+				    			    </ul>
+				    			</div>
+				    	    </div>
+				    	    <div class="guimo2">
+				    	    	<div class="gm">
+				    				<ul>
+				    				<li value="10桌以下"class="ggm">10桌以下</li>
+				    				<li value="10-20桌" class="ggm">10-20桌</li>
+				    				<li value="20-30桌元"class="ggm">20-30桌元</li>
+				    				<li value="30桌以上" class="ggm">30桌以上</li>
+				    			    </ul>
+				    			</div>
+				    	    </div>  
+				    	    <div class="chakan">
+				    	    	<a id="chaxun">立即查看</a>
+				    	    </div>
+				    	</div>
+				    	</center>
+				    </div>
+				</div>
+			  
+     		</div>
+		    
+		
+		</div>
+		<div class="layoutnew"></div>
+		<div id="box3">
+			<center>
+				<br/><br/>
+		    	 <span>您希望的婚宴场地：</span><span class="address" style="color: red;"></span><br/><br/>
+		    	 <span>您希望的婚宴价格：</span><span class="prices" style="color: red;"></span><br/><br/>
+		    	 <span>您希望的婚宴规模：</span><span class="guimo" style="color: red;"></span><br/><br/>
+		     	 <span>符合您的要求的共有<span style="color: #FF7500;">88</span>家</span><br/><br/>
+		     	 <button id="colsenew">确定</button>
+		     	</center>
+</div>
+	</body>
+
+</html>

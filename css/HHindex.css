@@ -1,0 +1,346 @@
+
+body{
+	overflow:-Scroll;overflow-x:hidden
+}
+a{
+	text-decoration: none;
+}
+.HH1{
+  width: 180px;	
+  height: 60px;
+  margin-bottom: 15px;
+}
+.navop{
+		height: 80px;
+		background-color:#E6C8DB;
+		box-shadow: 1px 1px 10px darkgray;
+		}  
+.navmagin{
+	margin-top: 15px;
+	margin-left: 30px;
+	font-size: 14px;
+}
+#home,#aboutus,#classA,#hotel,#services,#works{
+color: white;	
+}
+.navbar-toggle .icon-bar{
+	background-color: white;
+}
+#home:hover,#aboutus:hover,#classA:hover,#hotel:hover,#services:hover,#works:hover{
+color: white;
+}
+.nav li a:hover
+{
+	background-color:#E5CCDB;
+}
+.images{
+		width: 100%;
+	    overflow: hidden;
+		}
+.images img{
+	width: 100%;
+	animation: mySCALE 20s infinite;
+}
+@keyframes mySCALE{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+.textLove{
+	animation: myposition 15s infinite;
+}
+@keyframes myposition{
+				0%{
+					position: relative;
+					left: 20px;
+					font-size: 15px;
+					
+				}
+				50%{
+					position: relative;
+					left: 500px;
+					font-size: 25px;
+				}
+				100%{
+					position: relative;
+					left: 300px;
+					font-size: 25px;
+ }
+ }
+ .egtext:hover{
+ 	animation: myposition 3s infinite;
+ }
+ @keyframes myposition{
+				0%{
+					position: relative;
+					top:0px;
+			}
+				50%{
+					position: relative;
+					top:30px;
+				}
+				100%{
+					position: relative;
+					top:0px;
+ }
+ }
+
+.works{
+	height: 70px;
+	margin-top: 20px;
+	color: black;
+}
+.conone{
+	margin-top: 30px;
+	width: 100%;
+}
+.thinsert{
+	box-shadow: 3px 3px 20px darkgray;
+	}
+ .xiaotu{
+ 	width: 100%;
+}
+.fatherclass{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	
+}
+.fatherclass .imgclass,.fatherclass .imgclass img{
+	width: 100%;
+	height: 100%;
+    
+}
+.classmeng{
+	width: 150%;
+	height: 120%; 
+	background-color:black;
+	opacity: 0.7;
+	transform: rotate(45deg);
+	position: absolute;
+	transition: all 0.5s;
+	top: -150%;
+	left: 100%;
+}
+.fatherclass .imgclass img{
+	transform: scale(1.1);
+	transition: all 0.5s;
+	
+}
+.fatherclass:hover .imgclass img{
+	opacity: 0.9;
+	transform: scale(1);
+}
+.fatherclass:hover .classmeng{
+	position: absolute;
+	top: 100%;
+	left: -100%;
+}
+
+
+#myimg:hover,#myimg2:hover{
+	animation: myoption 5s infinite;
+}
+@keyframes myoption{
+				0%{
+					opacity: 1;
+				}
+				50%{
+					opacity:0.6;
+				}
+				100%{
+					opacity:1;
+ }
+ }
+ .father,.father>img{
+	width: 100%;
+	height: 360px;
+	background-color: #AFD9EE;
+}
+.father{
+	position: relative;
+	overflow: hidden;
+}
+.fatherMeng{
+	width: 80%;
+	height: 300px;
+	color: black;
+	background-color: white;
+	opacity: 0.9;
+	transition: all 1s; 
+	position: absolute;
+    top: 100%;
+    left: 10%;
+   	
+	
+}
+.father:hover .fatherMeng{
+	position: absolute;
+	top: 10%;
+}
+.mov{
+	font-family: "mv boli";
+}
+.huoqu{
+	width: 60%;
+	height: 50px;
+	background-color:#B69992;
+    transition: all 3s;
+    opacity: 0.7;
+    margin-top: 30px;
+}
+.huoqu:hover{
+	opacity: 1;
+}
+.huoqu a,.huoqu a:hover{
+	text-decoration: none;
+	color: white;
+}
+.huoqu a h4{
+	padding-top: 15px;
+}
+.rowservices{
+	width: 100%;
+	min-height:650px;
+	background: url(../img/img_11.jpg) no-repeat;
+	margin-top: 50px;
+}
+
+.jarallax {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 750px) {
+ .flowContext{
+	width: 90%;
+	height: 230px;
+	background-color:#BCA198 ;
+	margin-left: 5%;
+    opacity: 0.85;
+    border: 5px solid white;
+    transition: all 1.5s;
+    margin: 5%;
+ 
+}
+}
+@media only screen and (min-width: 750px) {
+  .flowContext{
+	width: 90%;
+	height: 300px;
+	background-color:#BCA198 ;
+	margin-left: 5%;
+    opacity: 0.85;
+    border: 5px solid white;
+    transition: all 1.5s;
+    margin-top: 45%;
+ 
+}
+}
+
+.flowContext:hover{
+	background-color:#212121;
+	color: white;
+	opacity: 0.7;
+}
+
+.circle{
+  position: relative;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin: 0 auto;
+ 
+  
+}
+.circle .img{
+ position: relative;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+.circle .img:before {
+  position: absolute; 
+  z-index: 1;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+.circle img {
+  width: 100%;
+  height: 100%;
+  transition: all 2s;
+ 
+}
+.circle img:hover{
+	opacity: 0.5;
+}
+
+.circle .img img{
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 50%;
+}
+.infocontext{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;;
+  height: 220px;
+  border-radius: 50%;
+  background: #1a4a72;
+  transform: rotate3d(0, 1, 0, -180deg);
+  background-color: #000000;
+  opacity: 0.8;
+  color: white;
+  transition: all 0.5s;
+  visibility: hidden;
+ 
+}
+.infocontext h4{
+	color: #fff;
+    position: relative;
+    margin: 0 30px;
+    padding: 100px 0 0 0;
+    height: 110px;
+  }
+.circle:hover .infocontext{
+   visibility: visible;
+   transform: rotate3d(0, 1, 0, 0deg);
+}
+@media only screen and (max-width: 991px) {
+  .circle{
+  	margin-top:10% ;
+  }
+ 
+}
+
+.fotrow{
+	width:100%;
+	background-color:black;
+	opacity: 0.8;
+	margin-top: 50px;
+}
+.footmessage{
+	width: 95%;
+	height: 270px;
+	color: white;
+	line-height: 30px;
+	font-family:"微软雅黑";
+	
+}
